@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "todo-wesam",
+          "appId": "1:787494991256:android:5bab452bd63c7d242c67ed",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "todo-wesam",
+          "configurations": {
+            "android": "1:787494991256:android:5bab452bd63c7d242c67ed",
+            "ios": "1:787494991256:ios:b12f1066e5023c602c67ed",
+            "web": "1:787494991256:web:4e10a5140635b3682c67ed"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
