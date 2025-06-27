@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "787494991256",
+    "project_id": "todo-wesam",
+    "storage_bucket": "todo-wesam.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787494991256:android:5bab452bd63c7d242c67ed",
+        "android_client_info": {
+          "package_name": "com.example.t0d0"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5LX8sc2GXhGqM9hb-jqS5nWPXxtpVJtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
